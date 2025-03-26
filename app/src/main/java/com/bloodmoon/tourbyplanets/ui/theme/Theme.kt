@@ -1,6 +1,5 @@
 package com.bloodmoon.tourbyplanets.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
@@ -43,7 +42,6 @@ fun TourByPlanetsTheme(
     MaterialTheme(
         colorScheme = colorScheme,
         typography = Typography,
-        content = content,
-        shapes = Shapes
+        content = content
     )
 }
